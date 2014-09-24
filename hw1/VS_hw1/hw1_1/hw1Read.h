@@ -8,11 +8,10 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
 
-int readInput(string in);
+int readInput(std::string in);
 
-int readInput(string in) {
+int readInput(std::string in) {
 	int num = 0,
 		negBit = (in[0] == '-' ? 1 : 0);
 
