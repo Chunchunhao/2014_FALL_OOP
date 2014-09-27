@@ -1,0 +1,18 @@
+@OOP HW2-2
+@b00920126
+
+To run the program, type `make` to compile fist
+$ make
+
+This will gererate a binary file called `hw2-2`
+$ ./hw2-2
+
+First, program will ask you to input something 
+Then, she'll ask you to input the key, which to encypt your input
+After that, she'll tell you the encrypted steing
+
+After excute the programe, type `make clean` to remvoe the binary file
+$ make clean
+
+
+Thank You

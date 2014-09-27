@@ -1,0 +1,17 @@
+@OOP HW2-1
+@b00920126
+
+To run the program, type `make` to compile fist
+$ make
+
+This will gererate a binary file called `hw2-1`
+$ ./hw2-1
+
+Program will ask you to input a file name under this directory
+if she can't find the file, she'll ask you again
+
+After excute the programe, type `make clean` to remvoe the binary file
+$ make clean
+
+
+Thank You
