@@ -78,7 +78,7 @@ int Trie::searchWord(std::string s)
     }
 
     for ( int i = 0; i < s.length(); i++ ) {        
-        Node* child = current->findChild(s[i]);
+        Node* child = current->findChild(tolower(s[i]));
         if ( child != NULL ) {
             current = child;
         }
