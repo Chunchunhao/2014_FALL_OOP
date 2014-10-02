@@ -1,0 +1,38 @@
+ex1.cpp:20:10: warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+ex1.cpp:20:10: warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+    for( auto i=0; i < in.size(); i++)  {
+         ^~~~
+    for( auto i=0; i < in.size(); i++)  {
+         ^~~~
+ex1.cpp:21:23: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+ex1.cpp:21:23: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+      if(i == 0 && in[i] == '-'){
+                   ~~ ^
+      if(i == 0 && in[i] == '-'){
+                   ~~ ^
+ex1.cpp:25:28: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+ex1.cpp:25:28: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+      else if( !isdigit(in[i]) ){
+                        ~~ ^
+      else if( !isdigit(in[i]) ){
+                        ~~ ^
+ex1.cpp:20:22: warning: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+ex1.cpp:20:22: warning: comparison of integers of different signs: 'int' and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+    for( auto i=0; i < in.size(); i++)  {
+                   ~ ^ ~~~~~~~~~
+    for( auto i=0; i < in.size(); i++)  {
+                   ~ ^ ~~~~~~~~~
+ex1.cpp:43:16: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+ex1.cpp:43:16: warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long') [-Wsign-conversion]
+    re+=passin[i];
+        ~~~~~~ ^
+    re+=passin[i];
+        ~~~~~~ ^
+ex1.cpp:42:30: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+ex1.cpp:42:30: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  for( int i = passin.size() -1 ; i > 0; i --){
+  for( int i = passin.size() -1 ; i > 0; i --){
+           ~   ~~~~~~~~~~~~~~^~
+           ~   ~~~~~~~~~~~~~~^~
+6 warnings generated.
+6 warnings generated.
