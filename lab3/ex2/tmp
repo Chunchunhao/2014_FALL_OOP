@@ -1,0 +1,333 @@
+Init x: 5, y: 0
+-----------: 
+now x: 5, y: 0
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 5+-1, y++: 0+0
+map: +
+-----------: 
+now x: 5, y: 0
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 5+0, y++: 0+1
+map: +
+Move x: 5, y: 1
+Last x: 5, y: 0
+-----------: 
+now x: 5, y: 1
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 5+-1, y++: 1+0
+map: +
+-----------: 
+now x: 5, y: 1
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 5+0, y++: 1+1
+map: +
+Move x: 5, y: 2
+Last x: 5, y: 1
+-----------: 
+now x: 5, y: 2
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 5+-1, y++: 2+0
+map: +
+Move x: 4, y: 2
+Last x: 5, y: 2
+-----------: 
+now x: 4, y: 2
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 4+0, y++: 2+-1
+map: +
+-----------: 
+now x: 4, y: 2
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 4+-1, y++: 2+0
+map: +
+Move x: 3, y: 2
+Last x: 4, y: 2
+-----------: 
+now x: 3, y: 2
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 3+0, y++: 2+-1
+map:  
+-----------: 
+now x: 3, y: 2
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 3+-1, y++: 2+0
+map:  
+Move x: 2, y: 2
+Last x: 3, y: 2
+-----------: 
+now x: 2, y: 2
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 2+0, y++: 2+-1
+map:  
+-----------: 
+now x: 2, y: 2
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 2+-1, y++: 2+0
+map: +
+Move x: 1, y: 2
+Last x: 2, y: 2
+-----------: 
+now x: 1, y: 2
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 1+0, y++: 2+-1
+map: +
+-----------: 
+now x: 1, y: 2
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 1+-1, y++: 2+0
+map: +
+-----------: 
+now x: 1, y: 2
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 1+0, y++: 2+1
+map: +
+Move x: 1, y: 3
+Last x: 1, y: 2
+-----------: 
+now x: 1, y: 3
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 1+-1, y++: 3+0
+map: +
+-----------: 
+now x: 1, y: 3
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 1+0, y++: 3+1
+map: +
+-----------: 
+now x: 1, y: 3
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 1+1, y++: 3+0
+map:  
+-----------: 
+now x: 1, y: 3
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 1+0, y++: 3+-1
+map: +
+Move x: 1, y: 2
+Last x: 1, y: 3
+pop
+-----------: 
+now x: 1, y: 2
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 1+1, y++: 2+0
+map:  
+Move x: 2, y: 2
+Last x: 1, y: 2
+pop
+-----------: 
+now x: 2, y: 2
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 2+0, y++: 2+1
+map:  
+-----------: 
+now x: 2, y: 2
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 2+1, y++: 2+0
+map: +
+Move x: 3, y: 2
+Last x: 2, y: 2
+pop
+-----------: 
+now x: 3, y: 2
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 3+0, y++: 2+1
+map:  
+Move x: 3, y: 3
+Last x: 3, y: 2
+-----------: 
+now x: 3, y: 3
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 3+-1, y++: 3+0
+map:  
+-----------: 
+now x: 3, y: 3
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 3+0, y++: 3+1
+map: +
+Move x: 3, y: 4
+Last x: 3, y: 3
+-----------: 
+now x: 3, y: 4
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 3+-1, y++: 4+0
+map:  
+-----------: 
+now x: 3, y: 4
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 3+0, y++: 4+1
+map:  
+-----------: 
+now x: 3, y: 4
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 3+1, y++: 4+0
+map:  
+Move x: 4, y: 4
+Last x: 3, y: 4
+-----------: 
+now x: 4, y: 4
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 4+0, y++: 4+1
+map: +
+-----------: 
+now x: 4, y: 4
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 4+1, y++: 4+0
+map: +
+-----------: 
+now x: 4, y: 4
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 4+0, y++: 4+-1
+map:  
+-----------: 
+now x: 4, y: 4
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 4+-1, y++: 4+0
+map: +
+Move x: 3, y: 4
+Last x: 4, y: 4
+pop
+-----------: 
+now x: 3, y: 4
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 3+0, y++: 4+-1
+map:  
+Move x: 3, y: 3
+Last x: 3, y: 4
+pop
+-----------: 
+now x: 3, y: 3
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 3+1, y++: 3+0
+map:  
+-----------: 
+now x: 3, y: 3
+end x: 11, y: 4
+right: 3
+h: 6, w: 12
+now x++: 3+0, y++: 3+-1
+map: +
+Move x: 3, y: 2
+Last x: 3, y: 3
+pop
+-----------: 
+now x: 3, y: 2
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 3+1, y++: 2+0
+map: +
+Move x: 4, y: 2
+Last x: 3, y: 2
+pop
+-----------: 
+now x: 4, y: 2
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 4+0, y++: 2+1
+map:  
+-----------: 
+now x: 4, y: 2
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 4+1, y++: 2+0
+map: +
+Move x: 5, y: 2
+Last x: 4, y: 2
+pop
+-----------: 
+now x: 5, y: 2
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 5+0, y++: 2+1
+map: +
+Move x: 5, y: 3
+Last x: 5, y: 2
+-----------: 
+now x: 5, y: 3
+end x: 11, y: 4
+right: 0
+h: 6, w: 12
+now x++: 5+-1, y++: 3+0
+map:  
+-----------: 
+now x: 5, y: 3
+end x: 11, y: 4
+right: 1
+h: 6, w: 12
+now x++: 5+0, y++: 3+1
+map: +
+-----------: 
+now x: 5, y: 3
+end x: 11, y: 4
+right: 2
+h: 6, w: 12
+now x++: 5+1, y++: 3+0
