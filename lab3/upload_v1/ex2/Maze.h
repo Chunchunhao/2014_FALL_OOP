@@ -1,3 +1,5 @@
+// 演算法使用 是 摸著右手邊的牆向前走
+// 有時候可能會繞遠路
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -71,7 +73,6 @@ void Maze::findRoad(void) {
   int right=0;
   //     0    1    2      3
   //point up, left, down, right;
-  //std::vector<point> forward[4];
   point * forward = new point[4];
   // when the `right` is ... then the forward move is ...
   forward[0].x = -1;
@@ -90,26 +91,26 @@ void Maze::findRoad(void) {
   now.y = start.y ;
   path.push_back(now);
   // First wall，沿著右邊走
-  // std::cout << "Init x: " << now.x << ", y: " << now.y << std::endl; 
   if( now.x == 0 ) {
     right = 1;
   } 
-  else if( now.x == wid ){
+  else if( now.x == wid-1 ){
     right = 3;
   }
   else if( now.y == 0){
     right = 0;
   }
-  else if( now.y == hei){
+  else if( now.y == hei-1){
     right = 2;
   }
   else {
     right = 0;
-    std::cout << "WTF11111" << std::endl;
+    std::cout << "只支援起點跟終點都在邊上的路徑運算" << std::endl;
+    return;
   }
 
   do {
-
+    // Hit the ground
     if( now.x + forward[right].x < 0 || 
         now.x + forward[right].x > wid || 
         now.y + forward[right].y < 0 ||
@@ -120,6 +121,7 @@ void Maze::findRoad(void) {
         right = ( (right + 1) % 4 );       
     }
     else {
+    // Get a move
       now.x += forward[right].x;
       now.y += forward[right].y;
       if( right == 0)

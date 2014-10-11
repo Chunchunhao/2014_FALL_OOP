@@ -102,17 +102,19 @@ void Maze::findRoad(void) {
   if( now.x == 0 ) {
     right = 1;
   } 
-  else if( now.x == wid ){
+  else if( now.x == wid-1 ){
     right = 3;
   }
   else if( now.y == 0){
     right = 0;
   }
-  else if( now.y == hei){
+  else if( now.y == hei-1 ){
     right = 2;
   }
   else {
     right = 0;
+    std::cout << "now x: " << now.x << ", y: " << now.y << std::endl; 
+    std::cout << "h: " << this->hei << ", w: " << this->wid  << std::endl;
     std::cout << "WTF11111" << std::endl;
   }
 
@@ -151,6 +153,18 @@ void Maze::findRoad(void) {
       }
       else {
         path.push_back(now);
+        map[ now.y ][ now.x ] = 'o';
+        //
+        for( auto ii=0; ii < getHeight(); ii++){
+          for( auto jj=0; jj < getWidth(); jj++) {
+            // os << "["<<i<<"]"<<"["<<j<<"]"<<mm.getChar(i, j);
+            std::cout << getChar(ii, jj);
+          }
+          std::cout << std::endl;
+        }
+
+        std::cout << std::endl;
+        //
       }
     }
   } while( !(now.x == end.x && now.y == end.y));

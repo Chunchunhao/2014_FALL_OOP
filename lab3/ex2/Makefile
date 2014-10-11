@@ -1,5 +1,6 @@
 CXX=clang++
-FLAGS=-std=c++11 -stdlib=libc++ -Weverything
+FLAGS=-std=c++11 -stdlib=libc++ 
+#:x-Weverything
 TAR=ex2
 all:
 		$(CXX) $(FLAGS) $(TAR).cpp -o $(TAR)
